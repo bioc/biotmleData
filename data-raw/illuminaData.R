@@ -21,8 +21,8 @@ rownames(illuminaData) <- illuminaData$id
 
 # make SummarizedExperiment
 se = SummarizedExperiment(
-  t(as.matrix(illuminaData[, -(1:3)])),
-  colData=illuminaData[, 2:3]
+  t(as.matrix(illuminaData[, -c(1:3, 22181:22182)])),
+  colData=illuminaData[, c(2:3, 22181:22182)]
 )
 illuminaData <- se
 
