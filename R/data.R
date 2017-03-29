@@ -1,18 +1,21 @@
-#' Baseline covariates and Illumina microarray data from 2007 study
+#' Sample baseline covariates and Illumina microarray data from a 2007 study
 #'
 #' A dataset containing various baseline covariates and microarray expression
 #' measures from Illumina arrays used in a 2007 study.
 #'
-#' @format A \code{data.frame} with 144 rows and 22196 variables:
+#' @format A \code{SummarizedExperiment} containing Illumina microarray data
+#'         from the Ref-8 BeadChips platform in the "assay" slot and phenotype
+#'         data on subjects in the "colData" slot:
 #' \describe{
 #'   This is example data to be used in testing the \code{biomarkertmle}
 #'   procedure. Consult the vignettes for how to use this data.
 #' }
-#' @return A \code{data.frame} containing biomarkers and baseline covariates.
+#' @return A \code{SummarizedExperiment} containing biomarkers and baseline
+#'         covariates.
 #'
 "illuminaData"
 
-#' Results obtained from running the biomarkertmle on illumina2007 data
+#' Results obtained from running biomarkertmle on the "illuminaData" sample data
 #'
 #' Example results obtained from running the TMLE-based estimation procedure on
 #' the example data included with this package (\code{illuminaData}).
