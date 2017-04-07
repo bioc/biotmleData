@@ -1,0 +1,19 @@
+Package: biotmleData
+Title: Example experimental microarray data set for the "biotmle" R
+        package
+Version: 0.99.1
+Authors@R: person("Nima", "Hejazi", email = "nhejazi@berkeley.edu",
+        role = c("aut", "cre"))
+Description: Microarray data (from the Illumina Ref-8 BeadChips
+        platform) and phenotype-level data from an epidemiological
+        investigation of benzene exposure, packaged using
+        "SummarizedExperiemnt", for use as an example with the
+        "biotmle" R package.
+Depends: R (>= 3.0)
+Suggests: Biobase, SummarizedExperiment
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+biocViews: GeneExpression, DifferentialExpression, Sequencing,
+        Microarray, RNASeq
