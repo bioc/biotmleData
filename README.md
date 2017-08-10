@@ -3,6 +3,8 @@
 > Example experimental data package for use with
 > [R/`biotmle`](https://github.com/nhejazi/biotmle)
 
+[![Travis-CI Build Status](https://travis-ci.org/nhejazi/biotmleData.svg?branch=master)](https://travis-ci.org/nhejazi/biotmleData)
+
 ---
 
 ## License
