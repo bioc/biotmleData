@@ -44,3 +44,4 @@
 #' @return A \code{biotmle} object containing results from \code{biomarkertmle}.
 #'
 "rnaseqTMLEout"
+
