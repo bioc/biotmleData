@@ -29,3 +29,19 @@
 #' @return A \code{biotmle} object containing results from \code{biomarkertmle}.
 #'
 "biomarkerTMLEout"
+
+#' Results obtained from running biomarkertmle on simulated RNA-Seq data
+#'
+#' Example results obtained from running the TMLE-based estimation procedure on
+#' next-generation sequencing (count) data.
+#'
+#' @format A \code{biotmle} object containing the results of running
+#'         \code{biomarkertmle}.
+#' \describe{
+#'   These results are included here for the sake of making the vignettes build
+#'   more quickly. The user will likely not benefit from using this data set.
+#' }
+#' @return A \code{biotmle} object containing results from \code{biomarkertmle}.
+#'
+"rnaseqTMLEout"
+

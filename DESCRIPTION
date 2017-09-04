@@ -17,3 +17,4 @@ LazyData: true
 RoxygenNote: 6.0.1
 biocViews: GeneExpression, DifferentialExpression, Sequencing,
         Microarray, RNASeq
+
