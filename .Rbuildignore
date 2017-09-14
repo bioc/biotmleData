@@ -32,3 +32,5 @@ README[.]md
 ^[.]check
 ^.*\.Rproj$
 ^\.Rproj\.user$
+external_data_store.txt
+
