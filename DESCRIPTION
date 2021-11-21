@@ -1,7 +1,7 @@
 Package: biotmleData
 Title: Example experimental microarray data set for the "biotmle" R
         package
-Version: 1.19.0
+Version: 1.19.1
 Authors@R: person("Nima", "Hejazi", email = "nhejazi@berkeley.edu",
         role = c("aut", "cre"))
 Description: Microarray data (from the Illumina Ref-8 BeadChips
